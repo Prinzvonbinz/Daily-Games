@@ -129,7 +129,7 @@ function getProfile() {
   let pf = localStorage.getItem("dailyGamesProfile");
   if (!pf) {
     pf = {
-      stars: 0,
+      stars: 1000,
       unlocked: { wordle: true },
       highscores: {},
       daily: {},
