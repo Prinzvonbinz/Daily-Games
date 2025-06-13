@@ -12,7 +12,7 @@ const GAMES = [
   {
     key: "emoji",
     title: "Emoji Quiz",
-    price: 0,
+    price: 3,
     desc: "Emojis erraten",
     generator: getEmojiQuiz,
     onePerDay: true,
@@ -20,7 +20,7 @@ const GAMES = [
   {
     key: "codeheist",
     title: "Code Heist",
-    price: 0,
+    price: 9,
     desc: "Errate die Zahl",
     generator: getCodeHeist,
     onePerDay: true,
@@ -28,7 +28,7 @@ const GAMES = [
   {
     key: "sudoku",
     title: "Sudoku",
-    price: 0,
+    price: 9,
     desc: "6x6 Sudoku",
     generator: getSudoku,
     onePerDay: true,
@@ -36,7 +36,7 @@ const GAMES = [
   {
     key: "guessnumber",
     title: "Guess the Number",
-    price: 0,
+    price: 12,
     desc: "Zahl erraten",
     generator: getGuessNumber,
     onePerDay: true,
@@ -44,7 +44,7 @@ const GAMES = [
   {
     key: "memorize",
     title: "Memorize",
-    price: 0,
+    price: 12,
     desc: "Farbreihenfolge merken",
     generator: getMemorize,
     onePerDay: true,
@@ -52,7 +52,7 @@ const GAMES = [
   {
     key: "coinfall",
     title: "Coin Fall",
-    price: 0,
+    price: 21,
     desc: "Fange Münzen, vermeide Bomben",
     generator: getCoinFall,
     onePerDay: true,
@@ -60,7 +60,7 @@ const GAMES = [
   {
     key: "typeracer",
     title: "Type Racer",
-    price: 0,
+    price: 30,
     desc: "Text schnell abtippen",
     generator: getTypeRacer,
     onePerDay: true,
@@ -68,7 +68,7 @@ const GAMES = [
   {
     key: "circle",
     title: "Draw a Perfect Circle",
-    price: 0,
+    price: 30,
     desc: "Zeichne einen Kreis",
     generator: getDrawCircle,
     onePerDay: true,
@@ -76,7 +76,7 @@ const GAMES = [
   {
     key: "wrongcolor",
     title: "Find The Wrong Color",
-    price: 0,
+    price: 60,
     desc: "Finde die falsche Farbe",
     generator: getWrongColor,
     onePerDay: true,
@@ -84,7 +84,7 @@ const GAMES = [
   {
     key: "tictactoe",
     title: "Tic Tac Toe",
-    price: 0,
+    price: 60,
     desc: "Tic Tac Toe gegen KI",
     generator: getTicTacToe,
     onePerDay: true,
@@ -92,7 +92,7 @@ const GAMES = [
   {
     key: "viergewinnt",
     title: "Vier gewinnt",
-    price: 0,
+    price: 60,
     desc: "Vier gewinnt gegen KI",
     generator: getVierGewinnt,
     onePerDay: true,
@@ -100,7 +100,7 @@ const GAMES = [
   {
     key: "flagquiz",
     title: "Flag Quiz",
-    price: 0,
+    price: 69,
     desc: "Flagge erraten",
     generator: getFlagQuiz,
     onePerDay: true,
@@ -108,7 +108,7 @@ const GAMES = [
   {
     key: "logoguessr",
     title: "Logo Guessr",
-    price: 0,
+    price: 69,
     desc: "Logo erraten",
     generator: getLogoGuessr,
     onePerDay: true,
@@ -116,7 +116,7 @@ const GAMES = [
   {
     key: "mazerunner",
     title: "Maze Runner",
-    price: 3,
+    price: 72,
     desc: "Labyrinth meistern",
     generator: getMazeRunner,
     onePerDay: true,
